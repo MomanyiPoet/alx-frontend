@@ -595,6 +595,21 @@ a:active {
     color: var(--nav-item-link-hover);
 }
 
+.header {
+    padding: var(--header-padding);
+}
+
+.header-logo {
+    position: var(--header-logo-position);
+}
+
+.header-logo a {
+    display: var(--header-logo-link-display);
+    position: var(--header-logo-link-position);
+    top: var(--header-logo-link-top);
+    left: var(--header-logo-link-left);
+}
+
 .row::after {
     content: "";
     display: table;
@@ -679,12 +694,4 @@ ul.row {
     display: block;
     padding-top: 1rem;
     color: var(--color-primary);
-}
-
-.header {
-    padding: var(--header-padding);
-}
-
-.header-logo {
-    position: var(--header-logo-position);
 }
